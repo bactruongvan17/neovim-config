@@ -42,3 +42,6 @@ keymap.set("n", "<C-w><down>", "<C-w>-")
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
 end, opts)
+
+-- keymap.set("n", "<leader>bt", ":ToggleTerm direction=float <CR>", { desc = "Open terminal" })
+-- keymap.set("n", "<leader>bT", ":ToggleTerm direction=horizontal <CR>", { desc = "Open horizotal terminal" })
